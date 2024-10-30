@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta http-qeuiv="Content-type" charet='text/html; charet=utf-8' />
+  <title>cola demo</title>
+  <link rel="stylesheet" href='style.css' />
+</head>
+<body>
+  <script src='jquery-3.7.1.min.js'></script>
+  <script src='d3v4.js'></script>
+  <script src='cola.min.js'></script>
+  <script src='highlight.pack.js'></script>
+  <h1>cola demo</h1>
+  <div class="grapharea">
+  <script src='graph.js'></script>
+  </div>
+  <div class="textarea">
+  <textarea id="graph" rows=40 cols=48></textarea>
+  </div>
+  <div class="control">
+  <button value="sample1.json">sample1</button>
+  <button value="sample2.json">sample2</button>
+  <button value="sample3.json">sample3</button>
+  <input type="checkbox" id="group">Group box</input>
+  <button value="update" onclick='draw_json()'>Update</button>
+  </div>
+</body>
+</html>

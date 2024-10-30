@@ -1,0 +1,39 @@
+{
+    "nodes": [
+	{ "name": "node-a0", "group": 1 },
+	{ "name": "node-b0", "group": 1 },
+	{ "name": "node-a1", "group": 2 },
+	{ "name": "node-b1", "group": 2 },
+	{ "name": "node-c0", "group": 1 },
+	{ "name": "node-c1", "group": 2 },
+	{ "name": "router-c", "group": 0 },
+	{ "name": "router-a", "group": 0 },
+	{ "name": "router-b", "group": 0 },
+	{ "name": "gateway-0", "group": 1 },
+	{ "name": "gateway-1", "group": 2 },
+	{ "name": "center", "group": 3 },
+	{ "name": "server", "group": 3 },
+	{ "name": "client-a", "group": 4 },
+	{ "name": "client-b", "group": 5 }
+    ],
+    "links": [
+	{ "target": 0, "source": 6, "value": 1 },
+	{ "target": 1, "source": 6, "value": 1 },
+	{ "target": 2, "source": 6, "value": 1 },
+	{ "target": 3, "source": 6, "value": 1 },
+	{ "target": 4, "source": 6, "value": 1 },
+	{ "target": 5, "source": 6, "value": 1 },
+	{ "target": 0, "source": 7, "value": 1 },
+	{ "target": 2, "source": 7, "value": 1 },
+	{ "target": 1, "source": 8, "value": 1 },
+	{ "target": 3, "source": 8, "value": 1 },
+	{ "target": 0, "source": 9, "value": 1 },
+	{ "target": 1, "source": 9, "value": 1 },
+	{ "target": 2, "source": 10, "value": 1 },
+	{ "target": 9, "source": 11, "value": 1 },
+	{ "target": 10, "source": 11, "value": 1 },
+	{ "target": 11, "source": 12, "value": 1 },
+	{ "target": 13, "source": 7, "value": 1 },
+	{ "target": 14, "source": 8, "value": 1 }
+    ]
+}
